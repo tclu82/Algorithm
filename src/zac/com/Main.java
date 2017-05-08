@@ -14,7 +14,6 @@ public class Main
     public Main()
     {
         listSize = 10;
-
         /** A list contains random number from 1 to input number*/
         RandomNumberList randomNumberList = new RandomNumberList(listSize);
 
@@ -29,10 +28,28 @@ public class Main
 
         System.out.println(inputRandomNumberList);
 
-        /** Sorted with Insertion sort */
-        InsertionSort is = new InsertionSort(inputRandomNumberList);
 
-        System.out.println(is.sortedList);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//        /** Sorted with Insertion sort */
+//        InsertionSort is = new InsertionSort(inputRandomNumberList);
+//
+//        System.out.println(is.sortedList);
     }
 
     /**
