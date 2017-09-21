@@ -1,6 +1,6 @@
 package zac.com;
 
-import java.util.List;
+import java.util.*;
 
 /**
  * Main class
@@ -28,6 +28,23 @@ public class Main
 
         System.out.println(inputRandomNumberList);
 
+        Test test = new Test(inputRandomNumberList);
+
+        System.out.println(test.myList);
+
+//        QuickSort quickSort = new QuickSort(inputRandomNumberList);
+//
+//        System.out.println(quickSort.myList);
+
+//        MergeSort mergeSort = new MergeSort(inputRandomNumberList);
+//
+//        System.out.println(mergeSort.myList);
+
+//        PrimeNumber p = new PrimeNumber();
+
+//        int[] arr = {93, 56, 34, 25, 78, 87, 12, 64, 41};
+
+//        RadixSort rs = new RadixSort(arr);
 
 
 
@@ -36,17 +53,6 @@ public class Main
 
 
 
-
-
-
-
-
-
-
-
-
-
-//        /** Sorted with Insertion sort */
 //        InsertionSort is = new InsertionSort(inputRandomNumberList);
 //
 //        System.out.println(is.sortedList);

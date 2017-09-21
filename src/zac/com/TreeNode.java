@@ -1,0 +1,20 @@
+package zac.com;
+
+/**
+ * Created by zac on 5/8/17.
+ */
+public class TreeNode {
+
+    int val;
+
+    TreeNode left;
+
+    TreeNode right;
+
+    public TreeNode(int val)
+    {
+        this.val = val;
+
+        left = right = null;
+    }
+}

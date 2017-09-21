@@ -25,7 +25,6 @@ public class BucketSort
             if (min > a)
                 min = a;
         }
-        //该值也可根据实际情况选择
         int bucketNum = max / 10 - min / 10 + 1;
 
         List buckList = new LinkedList<List<Integer>>();
